@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hotspot_join_title">핫스팟 자동 연결 설정 (실험 기능)</string>
+    <string name="hotspot_join_description">Android 13 이상과 5 GHz 전용 차량 핫스팟을 지원하는 펌웨어를 위한 선택적 복구 기능입니다. 확인 작업은 핫스팟을 변경하지 않고 비공개 롤백 백업을 준비합니다. localhost:5555에서 승인된 로컬 ADB가 필요합니다. TLS 무선 디버깅 페어링은 지원하지 않습니다.</string>
+    <string name="hotspot_join_check">핫스팟 복구 확인</string>
+    <string name="hotspot_join_apply">자동 연결 정보 추가</string>
+    <string name="hotspot_join_restore">저장된 핫스팟 설정 복원</string>
+    <string name="hotspot_join_working">확인 또는 업데이트 중… 취소한 경우 새로 확인해 결과를 점검해야 할 수 있습니다.</string>
+    <string name="hotspot_join_confirm">주차한 상태에서 CarPlay 연결을 끊고 차량 설정에서 핫스팟을 먼저 끄세요. 이 작업은 저장된 핫스팟 설정만 변경하고 다시 읽어 확인합니다. 방송 정보를 갱신하려면 작업 후 차량 설정에서 핫스팟을 직접 다시 켜세요. 끄는 동안 기존 연결 기기는 연결이 끊깁니다. 롤백을 위해 비공개 백업을 보관하세요.</string>
+    <string name="hotspot_join_disconnect">핫스팟을 변경하기 전에 CarPlay 연결을 끊으세요.</string>
+    <string name="hotspot_join_ready">지원되는 5 GHz 설정입니다. 비공개 전체 백업을 준비했습니다. 아직 핫스팟은 변경되지 않았습니다.</string>
+    <string name="hotspot_join_present">확인 대상 정보가 이미 있습니다. 중복 항목을 추가하지 않았으며, DiPlay는 기존 항목의 롤백 권한을 갖지 않습니다.</string>
+    <string name="hotspot_join_applied">저장된 설정을 다시 읽어 확인했습니다. 차량 설정에서 핫스팟을 켜 방송 정보를 갱신한 다음 자동 연결을 시험하세요. 실제 방송 및 CarPlay 연결 성공은 기기에서 별도로 확인해야 합니다.</string>
+    <string name="hotspot_join_restored">저장된 전체 설정을 복원하고 다시 읽어 확인했습니다. 차량 설정에서 핫스팟을 켜세요.</string>
+    <string name="hotspot_join_unsupported">지원되지 않는 API, 펌웨어 또는 대역이거나 공급업체 정보가 충돌합니다. 복구를 적용하지 않았습니다. 지원되는 5 GHz 전용 설정을 사용하세요. 다른 대역은 검증되지 않았습니다.</string>
+    <string name="hotspot_join_off_required">핫스팟이 꺼져 있는지 확인해야 합니다. 연결된 기기를 끊고 차량 설정에서 핫스팟을 끈 뒤 다시 시도하세요. DiPlay가 핫스팟을 자동으로 다시 켜지 않습니다.</string>
+    <string name="hotspot_join_drift">백업 이후 설정이 변경되었습니다. 기존 설정을 덮어쓰지 않았습니다. 다시 확인하세요. 기존 롤백 백업은 보관됩니다.</string>
+    <string name="hotspot_join_firmware_changed">펌웨어가 변경되었습니다. 비공개 백업은 보관했지만 이 펌웨어에서는 안전하게 복원할 수 없습니다.</string>
+    <string name="hotspot_join_cancelled">쓰기 전에 취소했습니다. 남아 있는 롤백 상태를 확인하려면 다시 확인하세요.</string>
+    <string name="hotspot_join_failed_restored">복구에 실패했거나 쓰기 후 취소되었습니다. 원래 설정을 복원하고 다시 읽어 확인했습니다.</string>
+    <string name="hotspot_join_busy">다른 핫스팟 작업이 진행 중입니다. 잠시 기다린 뒤 다시 확인하세요.</string>
+    <string name="hotspot_join_adb_required">localhost:5555에서 승인된 일반 로컬 ADB가 필요합니다. 차량에서 지원하는 설정으로 ADB를 켜고 승인하세요. Android TLS 무선 디버깅 페어링만으로는 사용할 수 없습니다.</string>
+    <string name="hotspot_join_recovery">결과 또는 백업 확인이 불확실합니다. 계속하기 전에 핫스팟을 끄고 다시 확인하세요. 기존 비공개 백업은 보관됩니다. 설정이 백업 당시와 일치할 때만 복원을 허용합니다.</string>
+</resources>
